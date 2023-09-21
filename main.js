@@ -15,7 +15,7 @@ const productos = [
 ];
 
 // 2
-alert('Bienvenido a la primera tienda online de productos para su mascota');
+alert('Bienvenido a la primera tienda online de productos para su gato');
 
 // 3
 function agregarAlCarrito(producto, cantidad) {
@@ -49,7 +49,7 @@ function mostrarCarrito() {
 let opciones = '';
 
 for (let i in productos) {
-  opciones += `${parseInt(i) + 1}. ${productos[i].nombre} - $${productos[i].precio}\n`;
+  opciones += `${+(i) + 1}. ${productos[i].nombre} - $${productos[i].precio}\n`;
 }
 
 while (true) {
@@ -60,7 +60,7 @@ while (true) {
   }
 
   if (eleccion && eleccion >= 1 && eleccion <= productos.length) {
-    const cantidad = parseInt(prompt(`¿Cuántas unidades de "${productos[eleccion - 1].nombre}" deseas agregar al carrito?`));
+    const cantidad = +(prompt(`¿Cuántas unidades de "${productos[eleccion - 1].nombre}" deseas agregar al carrito?`));
 
     if (!isNaN(cantidad) && cantidad >= 1) {
       agregarAlCarrito(productos[eleccion - 1], cantidad);

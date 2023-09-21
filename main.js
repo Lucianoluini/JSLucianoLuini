@@ -12,7 +12,7 @@ const productos = [
   new Producto('ProPlan Gatos Sterilized - 7.5kg', 27000),
   new Producto('Royal Canin Gatos Cachorros - 15kg', 55000),
   new Producto('Arena aglomerante - 4kg', 2500),
-  new Producto('Pouch Royal Canin sabor salmón', 50)
+  new Producto('Pouch Royal Canin sabor salmón', 550)
 ];
 
 // 2

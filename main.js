@@ -31,7 +31,7 @@ function mostrarCarrito() {
     return;
   }
 
-  let mensaje = 'Elementos en el carrito:\n';
+  let mensaje = 'Productos en el carrito:\n';
 
   for (let producto of productos) {
     if (producto.cantidad > 0) {

@@ -54,7 +54,7 @@ for (let i in productos) {
 }
 
 while (true) {
-  const eleccion = prompt(`Elige un número del 1 al ${productos.length} para agregar un producto al carrito o elige 0 para finalizar:\n${opciones}`);
+  const eleccion = prompt(`Elige un número del 1 al ${productos.length} para agregar un producto al carrito o elige 0 (cero) para finalizar:\n${opciones}`);
 
   if (eleccion === '0') {
     break;

@@ -3,7 +3,6 @@
 3- Agregamos una funcón que nos permita agregar un producto de la tienda al carrito con una cantidad específica
 4- Mostramos los items del carrito y la suma total final de los productos agregados
 5- Mostramos la lista de productos para elegir
-
  */
 
 //1
